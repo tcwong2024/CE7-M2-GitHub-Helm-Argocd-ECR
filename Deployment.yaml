@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: flask
-          image: public.ecr.aws/sctp-sandbox/wtc-flask-sample-app:latest
+          image: public.ecr.aws/sctp-sandbox/luqman-flask-ecr-app:hello-luqman
           ports:
             - containerPort: 8000
